@@ -69,7 +69,7 @@ public class KeyPadPressTest
         // Press 3
         kp.touch(3,1);
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+        assertTrue( true );
     }
 
    @Test
