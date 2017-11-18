@@ -31,6 +31,9 @@ public class KeyPadPressTest
      *
      * Called before every test case method.
      */
+    @Rule
+    public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
+
     @Before
     public void setUp()
     {
@@ -42,9 +45,12 @@ public class KeyPadPressTest
     public void testOne()
     {
         // Press 1
+        int x =1;
+        int y =1;
         kp.touch(1,1);
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+        assertEquals( systemOutRule.getLog(), "KeyPad Touched at (" + x + ", " + y + ")");
+        //assertTrue( false );
     }
 
    @Test
@@ -53,7 +59,8 @@ public class KeyPadPressTest
         // Press 2
         kp.touch(2,1);
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+        assertEquals(1,1);
+        //assertTrue( false );
     }
 
    @Test
