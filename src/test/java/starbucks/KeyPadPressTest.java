@@ -42,7 +42,7 @@ public class KeyPadPressTest
     public void testOne()
     {
         // Press 1
-
+        kp.touch(1,1);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -51,7 +51,7 @@ public class KeyPadPressTest
     public void testTwo()
     {
         // Press 2
-
+        kp.touch(2,1);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -60,7 +60,7 @@ public class KeyPadPressTest
     public void testThree()
     {
         // Press 3
-
+        kp.touch(3,1);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -69,7 +69,7 @@ public class KeyPadPressTest
     public void testFour()
     {
         // Press 4
-
+        kp.touch(1,2);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -78,7 +78,7 @@ public class KeyPadPressTest
     public void testFive()
     {
         // Press 5
-
+        kp.touch(2,2);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -87,7 +87,7 @@ public class KeyPadPressTest
     public void testSix()
     {
         // Press 6
-
+        kp.touch(3,2);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -96,7 +96,7 @@ public class KeyPadPressTest
     public void testSeven()
     {
         // Press 7
-
+        kp.touch(1,3);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -105,7 +105,7 @@ public class KeyPadPressTest
     public void testEight()
     {
         // Press 8
-
+        kp.touch(2,3);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -114,6 +114,8 @@ public class KeyPadPressTest
     public void testNine()
     {
         // Press 9
+        
+        kp.touch(3,3);
 
         // Assertion (Replace with appropriate test)
         assertTrue( false );
@@ -123,6 +125,7 @@ public class KeyPadPressTest
     public void testZero()
     {
         // Press 0
+        kp.touch(2,4);
 
         // Assertion (Replace with appropriate test)
         assertTrue( false );
@@ -132,7 +135,7 @@ public class KeyPadPressTest
     public void testBackspace()
     {
         // Press Backspace
-
+        kp.touch(3,5);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
@@ -141,7 +144,7 @@ public class KeyPadPressTest
     public void testNoKey()
     {
         // Press Empty Key
-
+        kp.touch(3,1);
         // Assertion (Replace with appropriate test)
         assertTrue( false );
     }
